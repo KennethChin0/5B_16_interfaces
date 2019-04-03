@@ -17,12 +17,12 @@ public class UserOfOrderedList {
 
         addOne( "add an element that belongs at the front"
                , -11
-               ,"[-11,-10,]"
+               ,"[-11,10,]"
                );
 
         addOne( "add an element that belongs at the back"
                , 5
-               ,"[-11,-10,5,]"
+               ,"[-11,0,5,]"
                );
 
         addOne( "add an element that belongs somewhere in the middle"
@@ -36,12 +36,12 @@ public class UserOfOrderedList {
                );
 
         // addOne( ""
-               // , 
+               // ,
                // ,""
                // );
     }
 
-    
+
     /**
       run one test
      */
@@ -52,8 +52,8 @@ public class UserOfOrderedList {
         System.out.println( description);
         orderedList.add( value);
 
-        // check 
-        System.out.println( 
+        // check
+        System.out.println(
             "result:   "
           + orderedList
           + " ...expecting "
@@ -61,4 +61,4 @@ public class UserOfOrderedList {
           + System.lineSeparator());
      }
 
-}    
+}
